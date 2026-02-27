@@ -1,25 +1,35 @@
-# BMI Calculator (Android • Kotlin)
+# BMI Calculator- Aanchal Poudel
 
-A simple **BMI (Body Mass Index)** calculator app built using **Android Studio** and **Kotlin**.
-
-This app lets the user enter:
-- **Height (cm)**
-- **Weight (kg)**
-
-Then it calculates BMI and shows a health category.
+A simple **BMI (Body Mass Index)** calculator app made with **Android Studio** using **Kotlin**.  
+Enter your **height (cm)** and **weight (kg)**, then the app shows your **BMI** and **category**.
 
 ---
 
-##  BMI Formula
+## Page 1 — What is BMI?
+**BMI** is a number that helps estimate whether a person’s weight is in a healthy range for their height.
 
+**Formula:**  
 **BMI = weight(kg) / (height(m)²)**
 
-> Height is converted from **cm → meters** before calculation.
+> The app converts height from **cm to meters** before calculating.
 
 ---
 
-##  BMI Categories Used
+## Page 2 — Features
+- Height input (**cm**)
+- Weight input (**kg**)
+- One tap BMI calculation
+- BMI shown with **2 decimal places**
+- Category result:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+- Input validation (no empty/invalid values)
 
+---
+
+## Page 3 — BMI Categories Used
 | BMI Range | Category |
 |----------:|----------|
 | < 18.5 | Underweight |
@@ -29,25 +39,20 @@ Then it calculates BMI and shows a health category.
 
 ---
 
-## Features
-
-- Simple UI (2 inputs + 1 button)
-- BMI calculation with 2 decimal places
-- Category result display
-- Input validation (no empty/invalid values)
-
----
-
-##  Tech Stack
-
-- **Language:** Kotlin
-- **IDE:** Android Studio
-- **UI:** XML Layouts
+## Page 4 — How to Use
+1. Open the app
+2. Enter **Height (cm)**
+3. Enter **Weight (kg)**
+4. Tap **Calculate BMI**
+5. View your **BMI** and **Category**
 
 ---
 
-##  How to Run
+## Page 5 — Notes
+- BMI is a general guide and may not be perfect for everyone (example: athletes).
+- This project is made for learning and practice with Kotlin + Android UI.
 
-1. Clone the repository
-   ```bash
-   git clone <your-repo-link>
+---
+
+## Screenshots
+_Add screenshots here later._
