@@ -1,4 +1,4 @@
-# BMI Calculator- Aanchal Poudel
+# BMI Calculator- BodyMetric Insight
 
 A simple **BMI (Body Mass Index)** calculator app made with **Android Studio** using **Kotlin**.  
 Enter your **height (cm)** and **weight (kg)**, then the app shows your **BMI** and **category**.
