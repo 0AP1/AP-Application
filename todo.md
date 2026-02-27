@@ -1,4 +1,4 @@
-# To-Do List (BMI Calculator App)
+# To-Do List (BMI Calculator App- BodyMetric Insight)
 
 ## App Setup
 - [ ] Create a new Android Studio project (Kotlin)
