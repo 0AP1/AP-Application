@@ -1,46 +1,48 @@
-# To-Do List (BMI Calculator App- BodyMetric Insight)
+# To-Do List (BMI Calculator - BodyMetric Insight)
 
-## App Setup
-- [ ] Create a new Android Studio project (Kotlin)
-- [ ] Choose **Empty Views Activity**
-- [ ] Set app name: **BMI Calculator**
-- [ ] Run the app once to confirm it builds
+## Project Setup
+- [ ] Open Android Studio
+- [ ] Create a new Jetpack Compose project
+- [ ] Choose Kotlin
+- [ ] Set app name
+- [ ] Let Gradle sync finish
+- [ ] Run the app once
 
----
+## Emulator / Device Setup
+- [ ] Create an AVD (Android Virtual Device)
+- [ ] Run the app on emulator or phone
+- [ ] If emulator does not run on AMD PC, install Android Emulator hypervisor driver
 
-## UI (XML Layout)
-- [ ] Add a title text: **BMI Calculator**
-- [ ] Add input field: **Height (cm)**
-- [ ] Add input field: **Weight (kg)**
-- [ ] Add button: **Calculate BMI**
-- [ ] Add result text area (BMI + Category)
-- [ ] Add basic padding and spacing for clean look
+## UI Pages (Compose)
+- [ ] Page 1 - What is BMI?
+- [ ] Page 2 - Features
+- [ ] Page 3 - BMI Categories
+- [ ] Page 4 - BMI Calculator
+- [ ] Page 5 - Notes / How to Use
 
----
+## Compose Requirements
+- [ ] Keep project structure unchanged
+- [ ] Keep `ui.theme` folder as generated
+- [ ] Do not place screen code inside `ui.theme`
+- [ ] Write composables in `MainActivity.kt`
+- [ ] Add `@Preview` for screen previews
 
-## BMI Calculation Logic
-- [ ] Read height and weight values from input fields
-- [ ] Convert height: **cm → meters**
-- [ ] Calculate BMI: `weight / (height * height)`
-- [ ] Format BMI to **2 decimal places**
-- [ ] Show BMI result in the result text
+## BMI Logic
+- [ ] Read height and weight
+- [ ] Convert cm to meters
+- [ ] Calculate BMI
+- [ ] Format BMI to 2 decimals
+- [ ] Show BMI + category
 
----
+## Validation
+- [ ] Empty height error
+- [ ] Empty weight error
+- [ ] Invalid number error
+- [ ] Height <= 0 error
+- [ ] Weight <= 0 error
 
-## Validation + Error Handling
-- [ ] If height is empty → show error message
-- [ ] If weight is empty → show error message
-- [ ] If height ≤ 0 → show error message
-- [ ] If weight ≤ 0 → show error message
-- [ ] Prevent crash when input is not a number
-
----
-
-## Category + Small Improvements
-- [ ] Show category based on BMI:
-  - [ ] < 18.5 → Underweight
-  - [ ] 18.5 – 24.9 → Normal
-  - [ ] 25.0 – 29.9 → Overweight
-  - [ ] ≥ 30.0 → Obese
-- [ ] Add a **Clear** button (optional)
-- [ ] Test with different values to confirm correct output
+## Testing
+- [ ] Test page switching
+- [ ] Test preview
+- [ ] Test BMI values
+- [ ] Test Clear button
